@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+    /* 1. Use Flexbox on the body to perfectly center the card */
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: 'Inter', sans-serif; /* Changed from Arial to Inter */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px; /* Fixed width looks better for this profile card */
+  text-align: center; /* Centers all text, images, and list items */
+}
+
+img {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.bio {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* 2. Style the list and buttons */
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  margin-bottom: 16px;
+}
+
+.social-links a {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 700; /* Bold weight from Inter */
+  font-size: 14px;  /* Slightly smaller text */
+  transition: all 0.3s ease;
+}
+
+/* 3. Add a hover effect! */
+.social-links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.attribution { 
+  margin-top: 20px;
+  font-size: 11px; 
+  text-align: center; 
+  color: white;
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <header>
+      <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall's profile picture">
+      <h1>Jessica Randall</h1>
+      <p class="location">London, United Kingdom</p>
+    </header>
+
+    <section class="content">
+      <p class="bio">"Front-end developer and avid reader."</p>
+      
+      <nav>
+        <ul class="social-links">
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Frontend Mentor</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">yashaswini</a>.
+  </footer>
+</body>
+</html>
