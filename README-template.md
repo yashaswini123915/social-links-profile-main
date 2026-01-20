@@ -38,7 +38,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://yashaswinijavadeveloper.infinityfreeapp.com/social-links-profile-main/index.html)
+- Live Site URL: [live site URL here](https://yashaswinijavadeveloper.infinityfreeapp.com/social-links-profile-main/index.html)
 
 ## My process
 
